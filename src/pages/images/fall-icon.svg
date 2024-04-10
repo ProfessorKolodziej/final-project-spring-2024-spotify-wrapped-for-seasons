@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1080 1080" style="enable-background:new 0 0 1080 1080;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_00000035511752735112142620000013273981048269738687_);}
+	.st1{fill-rule:evenodd;clip-rule:evenodd;fill:#D27D2D;}
+	.st2{fill:none;stroke:#D27D2D;stroke-width:35;}
+	.st3{fill:none;stroke:#D27D2D;stroke-width:25;stroke-miterlimit:4;}
+	.st4{fill:none;stroke:#D27D2D;stroke-width:35;stroke-miterlimit:4;}
+</style>
+<g>
+	<defs>
+		<rect id="SVGID_1_" x="278.22" y="187.63" width="528.2" height="511.39"/>
+	</defs>
+	<clipPath id="SVGID_00000073687349340258937030000006677525838133655994_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_00000073687349340258937030000006677525838133655994_);">
+		<path class="st1" d="M516.24,213.2c15.85-16.14,26.08-25.57,26.08-25.57c3.6,11.6,7.72,22.63,12.25,33.18
+			C581.37,283,623,327.88,660.11,367.83c43.24,46.6,80.29,86.52,80.29,139.42c0,50.86-20.87,99.64-58.01,135.61
+			c-37.15,35.96-87.53,56.17-140.06,56.17s-102.91-20.2-140.06-56.17c-37.15-35.97-58.01-84.74-58.01-135.61
+			C344.25,400.75,462.43,268.08,516.24,213.2z M529.88,245.83c-21.2,22.21-41.35,45.34-60.38,69.33
+			c-23.97,30.36-47.41,64.18-64.7,98.12c-17.5,34.3-27.53,66.42-27.53,93.97c0,42.38,17.39,83.03,48.35,113
+			c30.95,29.97,72.94,46.81,116.72,46.81s85.76-16.84,116.72-46.81c30.96-29.97,48.35-70.62,48.35-113
+			c0-38.39-26.28-68.94-72-118.26l-0.99-1.02c-34.3-37.01-75.56-81.44-104.52-142.17V245.83z"/>
+		<path class="st2" d="M524.7,379.4c-17.61,119.33,22.01,220.18,44.02,255.7"/>
+		<line class="st3" x1="555.32" y1="610.98" x2="590.78" y2="504.44"/>
+		<line class="st3" x1="530.79" y1="529.81" x2="448.64" y2="472.18"/>
+	</g>
+</g>
+<line class="st4" x1="583.42" y1="812" x2="555.08" y2="679.57"/>
+</svg>
