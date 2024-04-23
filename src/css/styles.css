@@ -1,0 +1,234 @@
+/* Landing Page */
+.main-title{
+	color: black;
+	font-family: "Cabin", sans-serif;
+	font-size: 80px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.plot-command{
+	font-family: "Cabin", sans-serif;
+	font-size: 25px;
+	text-decoration: none;
+	color: black;
+	text-align: right;
+}
+
+.plot-command > span, .plot-command > .play-icon {
+	display: inline-block;
+  	vertical-align: middle;
+}
+
+.play-icon{
+	max-width: 20px;
+	padding: 10px;
+	position: absolute;
+	bottom: 20;
+	right: 20;
+}
+
+.content-container{
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@media screen and (max-width: 400px) {
+	.main-title{
+		font-size: 60px;
+		margin: 10px;
+		padding-top: 20px;
+	}
+
+	.plot-command{
+		margin: 20px;
+	}
+
+	.play-icon{
+		right: 30;
+		bottom: 30;
+	}
+
+	.content-container{
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.content-container{
+		max-width: 800px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 20px;
+	}
+
+	.main-title{
+		font-size: 70px;
+		margin: 20px;
+	}
+
+	.plot-command{
+		margin: 20px;
+	}
+
+	.play-icon{
+		bottom: 15;
+		right: 10;
+	}
+}
+
+/* Menu Page */
+.back-icon{
+	max-width: 30px;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}
+
+.seasons{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	gap: 100px 175px;
+	padding-bottom: 80px;
+}
+
+.season-grid{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 10px;
+}
+
+.menu-title{
+	font-family: "Cabin", sans-serif;
+	font-size: 20px;
+	display: block;
+	width: 100%;
+	padding-top: 30px;
+	margin: 0px;
+	font-size: 30px;
+	text-align: center;
+}
+
+.season-button{
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 8px;
+	font-family: "Cabin", sans-serif;
+	font-weight: bold;
+	width: fit-content;
+}
+
+.spring-button{
+	background-color: #A94064;
+}
+
+.summer-button{
+	background-color: #013220;
+}
+
+.fall-button{
+	background-color: #8B4000;
+}
+
+.winter-button{
+	background-color: #002147;
+}
+
+.season-icon{
+	width: 200px;
+	height: 200px;
+	padding: 40px;
+}
+
+@media screen and (max-width: 600px) {
+	.menu-title{
+		font-size: 25px;
+		margin: 20px;
+		text-align: center;
+	}
+
+	.seasons{
+		gap: 5px 15px;
+	}
+
+	.season-grid{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.season-icon{
+		width: 100px;
+		height: 100px;
+		padding: 20px;
+	}
+
+	.back-icon{
+		max-width: 25px;
+		position: absolute;
+		top: 60px;
+		left: 30px;
+	}
+}
+
+/*Season Pages*/
+.season-title{
+	font-family: "Cabin", sans-serif;
+	font-size: 25px;
+	text-align: right;
+	margin-right: 20px;
+}
+
+.my-chart-container{
+	height: 600px;
+	width: 100%;
+	min-width: 320px;
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.spring-page {
+	background-image: url("../images/spring-icon-background.svg");
+	background-repeat: space;
+	background-size: 50px 50px;
+}
+
+.summer-page {
+	background-image: url("../images/summer-icon-background.svg");
+	background-repeat: space;
+	background-size: 50px 50px;
+}
+
+.fall-page {
+	background-image: url("../images/fall-icon-background.svg");
+	background-repeat: space;
+	background-size: 50px 50px;
+}
+
+.winter-page {
+	background-image: url("../images/winter-icon-background.svg");
+	background-repeat: space;
+	background-size: 50px 50px;
+}
+
+.page-back-icon{
+	max-width: 30px;
+	position: absolute;
+	top: 50px;
+	left: 70px;
+}

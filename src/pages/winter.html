@@ -6,16 +6,22 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Update your description here" />
-	<title>Update your title here</title>
-	<link href="css/styles.css" rel="stylesheet">
+	<title>Winter Page</title>
+	<link href="../css/styles.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="winter-page">
 	<main class="content-container">
-		<h4 class="menu-title">Pick a season to plot for</h4>
-	</main>
+		<h4 class="season-title">Winter Listening Habits</h4>
+		<a class="back-command" href="menu-page.html"><img class="page-back-icon" src="../images/back-button.svg" alt="back button"></a>
 
-	<script src="js/script.js"></script>
+		<div class="my-chart-container">
+			<canvas id="winterChart"></canvas>
+		</div>
+
+		<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+		<script src="../js/winter-scripts.js"></script>
+	</main>
 </body>
 
 </html>
