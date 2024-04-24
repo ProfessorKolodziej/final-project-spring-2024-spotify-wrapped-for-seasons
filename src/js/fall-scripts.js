@@ -1,6 +1,6 @@
 const fallCanvas = document.querySelector('#fallChart');
 
-new Chart(fallCanvas, {
+const fallChart=new Chart(fallCanvas, {
   type: 'bar',
   data: {
 	 labels: ['', '', '', '', ''],
@@ -33,16 +33,16 @@ new Chart(fallCanvas, {
 
 // Define an array of Spotify track URIs for each bar
 const spotifyUris = [
-	'spotify:track:4xdBrk0nFZaP54vvZj0yx7',
-	'spotify:track:53IRnAWx13PYmoVYtemUBS',
-	'spotify:track:7FOgcfdz9Nx5V9lCNXdBYv',
-	'spotify:track:4rlQza35DE4Prh5yonxnCs',
-	'spotify:track:4xdBrk0nFZaP54vvZj0yx7'
+	'spotify:track:45KMdPDdZTxcXW3lw10R70',
+	'spotify:track:5T00EN4oZmDQx3hqVAC4Fx',
+	'spotify:track:7dT9D6117e5DbhnKxDLNW9',
+	'spotify:track:0HEzuLLojblUOaUSdmJ9gl',
+	'spotify:track:3KbOflJ5JqHWtmco4PiO3h'
 ];
 
 // Add click event listener to the chart
 fallCanvas.onclick = function(event) {
-	const activeElement = Chart.getElementsAtEventForMode(event, 'nearest', { intersect: true }, true)[0];
+	const activeElement = fallChart.getElementsAtEventForMode(event, 'nearest', { intersect: true }, true)[0];
 	if (activeElement) {
 		 const index = activeElement.index;
 		 const uri = spotifyUris[index]; // Get the Spotify URI based on the index
