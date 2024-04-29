@@ -1,7 +1,17 @@
 /* Landing Page */
+.landing{
+	background:
+      conic-gradient(#ffffff 25%,#0000 0) 0 0/calc(2*17px) calc(17px/9.5),
+      conic-gradient(#ffffff 25%,#0000 0) 0 0/calc(17px/9.5) calc(2*17px),
+      repeating-conic-gradient(#0000 0 25%,#ffffff 0 50%)
+       17px 0 /calc(2*17px) calc(2*17px),
+      radial-gradient(50% 50%, #d9d9d9 98%,#ffffff)
+       0 0/17px 17px;
+}
+
 .main-title{
 	color: black;
-	font-family: "Cabin", sans-serif;
+	font-family: "Sedan", serif;
 	font-size: 80px;
 	text-align: left;
 	margin-left: auto;
@@ -33,6 +43,11 @@
 	max-width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.landing-content-container{
+	background-color: #ffffff;
+	padding-bottom: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -204,7 +219,7 @@
 }
 
 .season-subtitle{
-	font-family: "Cabin", sans-serif;
+	font-family: "Sedan", serif;
 	font-size: 20px;
 	text-align: center;
 	font-style: italic;
